@@ -1,9 +1,29 @@
-.jumbotron {
-
+.jumbotron h2 {
+  font-size: 16pt;
+}
+.jumbotron p{
+  font-size: 10pt;
 }
 .float-left {
   float:left;
 }
 .float-right {
   float:right;
+}
+.panel img{
+  float: left;
+  padding: 10px;
+}
+.container.panel{
+  padding: 0px;
+  margin: 0px;
+}
+div[panel*="col-md-5"]{
+  padding: 0px;
+}
+.col-md-2{
+  list-style: none;
+}
+ul{
+  text-align: left;
 }
